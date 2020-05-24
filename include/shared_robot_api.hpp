@@ -6,6 +6,14 @@
 
 namespace shared_api
 {
+    void initialize();
+    void disabled();
+    void competition_initialize();
+    void initialize_opcontrol();
+    void initialize_autonomous();
+    void update_opcontrol();
+    void update_autonomous();
+
     class Motor
     {
     public:
