@@ -6,6 +6,8 @@
 
 #include "logging.h"
 #include "motor.h"
+#include "time_utils.h"
+
 namespace shared_api
 {
     void initialize();
