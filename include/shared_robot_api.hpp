@@ -4,6 +4,8 @@
 
 #pragma once
 
+#include "logging.h"
+#include "motor.h"
 namespace shared_api
 {
     void initialize();
@@ -13,16 +15,4 @@ namespace shared_api
     void initialize_autonomous();
     void update_opcontrol();
     void update_autonomous();
-
-    class Motor
-    {
-    public:
-        Motor(int p);
-        ~Motor();
-
-        const int port;
-        int voltage = 0;
-
-        void move_voltage(int voltage);
-    };
 }
