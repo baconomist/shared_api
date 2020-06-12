@@ -7,6 +7,7 @@
 #include "logging.h"
 #include "motor.h"
 #include "time_utils.h"
+#include "vision.h"
 
 namespace shared_api
 {
